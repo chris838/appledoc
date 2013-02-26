@@ -89,7 +89,7 @@
 	static NSMutableDictionary *result = nil;
 	if (!result) {
 		result = [[NSMutableDictionary alloc] init];
-		[result setObject:@"%@ Document" forKey:@"titleTemplate"];
+		[result setObject:@"%@" forKey:@"titleTemplate"];
 	}
 	return result;
 }
