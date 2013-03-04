@@ -32,10 +32,10 @@ fi
 --keep-undocumented-objects \
 --keep-undocumented-members \
 --search-undocumented-doc \
---no-create-docset \
 "$2" > "${docsPath}/AppleDoc.log"
 
 # Unused switched
 #--docset-feed-url "${docsURL}/%DOCSETATOMFILENAME" \                                                                                                                                                      
 #--docset-package-url "${docsURL}/%DOCSETPACKAGEFILENAME" \                                                                                                                                                
 #--docset-fallback-url "${docsURL}/$1Doc/" \  
+#--no-create-docset \
